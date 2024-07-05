@@ -85,4 +85,4 @@ const SecondPage: React.FC = () => {
   );
 };
 
-export default SecondPage;
+export default SecondPage; 
