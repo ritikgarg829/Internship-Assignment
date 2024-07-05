@@ -53,7 +53,7 @@ const SecondPage: React.FC = () => {
             rows={posts} 
             columns={columns} 
             checkboxSelection 
-            disableSelectionOnClick 
+            disableRowSelectionOnClick   
             sx={{
               '& .MuiDataGrid-root': {
                 backgroundColor: 'white',
