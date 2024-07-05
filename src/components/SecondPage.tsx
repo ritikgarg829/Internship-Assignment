@@ -52,7 +52,6 @@ const SecondPage: React.FC = () => {
           <DataGrid 
             rows={posts} 
             columns={columns} 
-            pageSize={5} 
             checkboxSelection 
             disableSelectionOnClick 
             sx={{
@@ -85,4 +84,4 @@ const SecondPage: React.FC = () => {
   );
 };
 
-export default SecondPage; 
+export default SecondPage;
